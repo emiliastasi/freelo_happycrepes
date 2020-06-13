@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Noto+Sans|Oswald|Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ nav{
+	padding: 1rem;
+	background-color: rgba(200, 50, 50, .5);
+    font-variant: small-caps;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+#menu {
+	display: none;
+}
+.menu {
+	padding: 0 0 0 10px;
+}
+.menu li {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	width: 80px;
+}
+.menu li:hover {
+	background-color:rgb(212, 140, 140);
+	box-shadow: 0 0 5px white;
+	transform: scale(1.1,1.1);
+
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+section{
+display:flex;
+height: 100vh;
+}
+.crepes-gallery {
+display: flex;
+width: 70%;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.crepes-description{
+width: 30%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: tomato;
+color: rgb(41, 41, 41);
+
+}
+
+.crepes-description h1 {
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+}
+.crepes-description p{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+img.gallery-highlight{
+width: 50%;
+height: 45%;
+}
+.crepes-preview{
+    display: flex;
+    width: 50%;
+    border: 2px solid #d3baa0;
+}
+.crepes-preview img{
+    flex-grow: 1;
+    height: 100px;
+    opacity: 0.5;
+    transition: opacity 0.4s ease;
+    cursor: pointer;
+}
+img.room-active {
+    opacity:1;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;}
+body {
+    background-color: white;
+    display: flex;
+}
+header, nav, ul,li {
+    background-color: tomato;
+       display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+nav{
+    min-height: 100vh;
+
+  }
+a {
+    background-color: tomato;
+    color: darkolivegreen;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Open Sans Condensed';
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-decoration: none;
+}
+li {
+    padding: 10px;
+}
+.menu li {
+	list-style: none;
+	display: inline-block;
+    text-align: center;
+    
+}
+.menu li:hover {
+
+	box-shadow: 0 0 5px white;
+
+}
+}
+div.img-principal {
+  display: flex;
+    background-color: white;
+    height: 50%;
+}
+img.imagen-portada {
+ padding-top: 20%;
+ padding-left: 55%;
+   }
